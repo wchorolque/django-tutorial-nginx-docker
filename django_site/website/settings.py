@@ -42,7 +42,10 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "debug_toolbar",
-    "django_rest_framework",
+    "rest_framework",
+    "patients",
+    "doctors",
+    "bookings",
 ]
 
 MIDDLEWARE = [
